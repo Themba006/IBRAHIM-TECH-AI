@@ -7,15 +7,15 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
+global.email ="thembasakala93@gmail.com"
 global.location="Lahore,Pakistan."
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://thembasakala98:themba2006@cluster0.zft1ycs.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/king-ibrahim-md/IBRAHIM-TECH/tree/main";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/zambia";
+global.github=process.env.GITHUB|| "https://github.com/Themba006/IBRAHIM-TECH-AI/tree/main";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/L7T4iMvnfwCA8oLkUIRCFj";
 global.website=process.env.GURL || "https://chat.whatsapp.com/L7T4iMvnfwCA8oLkUIRCFj" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/ed324d7e76a4cd50fd96b.jpg" ; // SET LOGO FOR IMAGE 
@@ -23,8 +23,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "260772376093";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "260772376093";
+global.onwername= process.env.OWNER_NAME || ''LAMY📌🥺✌🏼🔥😁''
 
 
 
@@ -64,12 +65,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©sᵏⁱⁿᵍ ⁱᵇʳᵃʰⁱᵐ ᵐᵈ2024" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "THE LAMY BOT" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Ibrahim",
-  packname: process.env.PACK_NAME || "👑",
-  botname : process.env.BOT_NAME  || " 𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗧𝗘𝗖𝗛",
-  ownername:process.env.OWNER_NAME|| "It'x 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
+  author : process.env.PACK_AUTHER|| "LAMY",
+  packname: process.env.PACK_NAME || "THEMBLAMY✌🏼📌🥺",
+  botname : process.env.BOT_NAME  || " THEMBALAMY-TECH",
+  ownername:process.env.OWNER_NAME|| "LAMY",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
